@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  display: flex;
+}
+
+aside {
+  color: #1b1f21;
+  flex: 0 0 25em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Opté por emplear las clases .image-text-flex-m y .image-text-flex con el objetivo de introducir mejoras. Esta decisión me facilitó la incorporación de nuevas funcionalidades en el chat, tales como la integración de nuevos chats y una mejor gestión de las conversaciones. Asimismo, incluí un botón que ofrece a los usuarios la posibilidad de continuar chateando si así lo desean. A pesar de que esto complicó un poco el código, consideré que era un paso necesario para enriquecer la experiencia de los usuarios y brindarles mayores opciones dentro del chat.*/
+
+.image-text-flex-m {
+  display: flex;
+  align-items: center;
+}
+
+.image-text-flex-m img {
+  width: 3.25rem;
+  height: 3.25rem;
+  margin-right: 1em;
+  margin-left: 1.5em;
+}
+
+.image-text-flex-m p {
+  margin-top: 12px;
+  display: inline;
+  font-size: large;
+}
+
+.image-text-flex-m span {
+  font-size: small;
+  display: block;
+  font-weight: lighter;
+}
+
+.image-text-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  height: 60px;
+}
+
+.image-text-flex img {
+  width: 4.25rem;
+  height: 4.5rem;
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+}
+
+.image-text-flex p {
+  margin-top: 20px;
+  display: inline;
+  font-size: large;
+}
+
+.image-text-flex span {
+  font-size: 16px;
+  display: block;
+}
+
+.icono-comment {
+  font-size: 24px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgba(128, 128, 128, 0.299);
+}
+
+.navbar-nav button {
+  background-color: #a491d2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.navbar-nav button:hover {
+  background-color: #cdc3e6;
+}
+
+/* Respecto al color de fondo del main era E8EBE4, pero le di cierta transparencia porque consideré que no se parecían*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebe45b;
+}
+
+main img {
+  width: 25%;
+  margin-bottom: 2rem;
+}
+
+.principal-message {
+  text-align: center;
+}
+
+.principal-title {
+  font-size: 60px;
+}
+
+.principal-paragraph {
+  font-size: 30px;
+  width: 1000px;
+}

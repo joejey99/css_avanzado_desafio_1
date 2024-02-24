@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/3ccb4944f5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero container-fluid">
+      <aside>
+        <nav class="navbar bg-body border border-gray-500 py-4">
+          <div class="container-fluid">
+            <div class="image-text-flex-m">
+              <img
+                src="assets/imgs/maria.jpg"
+                alt="foto_de_maria"
+                class="rounded-circle"
+              />
+              <div>
+                <p>María</p>
+                <span>Activa ahora</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav1"
+              aria-controls="navbarNav1"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+              <ul class="navbar-nav mt-4 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Nuevo Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/1juanita.jpg"
+                alt="foto_de_juanita"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Juanita</p>
+                <span>At vero eos et accusa</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav2"
+              aria-controls="navbarNav2"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/2alberto.jpg"
+                alt="foto_de_alberto"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Alberto</p>
+                <span>blanditis praesentium</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav3"
+              aria-controls="navbarNav3"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav3">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/3ignacio.jpg"
+                alt="foto_de_ignacio"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Ignacio</p>
+                <span>Officiis debitis aut</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav4"
+              aria-controls="navbarNav4"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav4">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/4cristian.jpg"
+                alt="foto_de_cristian"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Cristian</p>
+                <span>Nam libero tempore</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav5"
+              aria-controls="navbarNav5"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav5">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/5mariajose.jpg"
+                alt="foto_de_mariajose"
+                class="rounded-circle"
+              />
+              <div>
+                <p>María José</p>
+                <span>impedit quo minus id</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav6"
+              aria-controls="navbarNav6"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav6">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/6gonzalo.jpg"
+                alt="foto_de_gonzalo"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Gonzalo</p>
+                <span>At vero eos et accusa</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav7"
+              aria-controls="navbarNav7"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav7">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/7juanpablo.jpg"
+                alt="foto_de_juanpablo"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Juan Pablo</p>
+                <span>necessitatibus saepe</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav8"
+              aria-controls="navbarNav8"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav8">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar bg-body border border-gray-500 py-3">
+          <div class="container-fluid">
+            <div class="image-text-flex">
+              <img
+                src="assets/imgs/8magdalena.jpg"
+                alt="foto_de_magdalena"
+                class="rounded-circle"
+              />
+              <div>
+                <p>Magdalena</p>
+                <span>ut et voluptates</span>
+              </div>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav9"
+              aria-controls="navbarNav9"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="icono-comment fa-regular fa-comment px-2"></i>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav9">
+              <ul class="navbar-nav mt-2 mb-1 py-5">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-lg px-5 py-3 mx-5">
+                    Continuar Chat
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </aside>
+      <main class="container-fluid">
+        <img src="assets/imgs/hand.png" alt="icono de mano" />
+        <div class="principal-message">
+          <span class="principal-title">Comienza el Networking</span>
+          <p class="principal-paragraph">
+            Presiona el botón
+            <span class="fw-bold">"Nuevo o Continuar Chat "</span> para comenzar
+            a crear nuevas o continuar redes de contacto para tu empresa o
+            emprendimiento.
+          </p>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
